@@ -91,7 +91,7 @@ BENEFIT - can add more lines ( to the very atomic level )
 
 - renaming the branch ( rename needs you to be in the same branch which is to renamed )
 ```
-  git branch -m <branch - name>
+  git branch -m <branch-name>
 ```
 
 - for resolving conflicts
@@ -151,10 +151,14 @@ BENEFIT - can add more lines ( to the very atomic level )
     git clone " url "
 ```
 
-- add remote add origin ( added external git repo origin in the local system )
+- here is how add remote add origin ( added external git repo origin in the local system ).
 ```
     git remote -v
     ( gives origin details )
-    git remote add origin " url "
+
+    git remote add origin url 
+    ( origin is a conventional git remote name )
 ```
+
+
 
