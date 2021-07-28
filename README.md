@@ -144,3 +144,17 @@ BENEFIT - can add more lines ( to the very atomic level )
     git reset --HARD <commit - hash>
     ( the changes made are lost )
 ```
+
+- cloning means copy repository from outside of the local system git 
+( best usage is copying other person repository )
+```
+    git clone " url "
+```
+
+- add remote add origin ( added external git repo origin in the local system )
+```
+    git remote -v
+    ( gives origin details )
+    git remote add origin " url "
+```
+
