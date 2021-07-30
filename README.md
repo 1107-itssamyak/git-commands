@@ -92,6 +92,7 @@ BENEFIT - can add more lines ( to the very atomic level )
 - renaming the branch ( rename needs you to be in the same branch which is to renamed )
 ```
   git branch -m <branch-name>
+  git branch -M <branch-name>
 ```
 
 - for resolving conflicts
@@ -130,12 +131,12 @@ BENEFIT - can add more lines ( to the very atomic level )
     ( it means simply means to revert numb commits back )
 ```
 
-- unstaging the changes using restore command
+- used to remove files from the staging area and working directory for Git
 ```
-    git restore --staged <file>
+    rm -rf <file>
 ```
 
-- reseting the HEAD to some old commit
+- git reset will reset the state of the branch to a previous state by dropping all the changes 
 ```
     git reset <commit - hash> 
     ( the changes will retain )
@@ -160,5 +161,23 @@ BENEFIT - can add more lines ( to the very atomic level )
     ( origin is a conventional git remote name )
 ```
 
+![3](./images/direction_flow.png)
 
+- pushing in the repository
+```
+    git push <remote> <branch>
+```
 
+- fetches all branches and history from a specific remote repository. It will not retrieved in current workspace
+```
+    git fetch <remote>
+    git fetch <remote> <branch>
+```
+
+- git pull fetches and updates the current workspace.
+(git pull = git fetch + get merge)
+```
+    git pull <remote> <branch>
+    git pull
+    (  )
+```
