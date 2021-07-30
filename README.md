@@ -179,5 +179,5 @@ BENEFIT - can add more lines ( to the very atomic level )
 ```
     git pull <remote> <branch>
     git pull
-    (  )
+    ( updated all branches in the local system )
 ```
